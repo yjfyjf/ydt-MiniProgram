@@ -1,0 +1,1 @@
+<view class="pages data-v-2c318358"><uni-nav vue-id="59ff68ae-1" title="教师" isLeft="{{true}}" class="data-v-2c318358" bind:__l="__l"></uni-nav><image class="img data-v-2c318358" mode="scaleToFill" src="{{url}}"></image></view>

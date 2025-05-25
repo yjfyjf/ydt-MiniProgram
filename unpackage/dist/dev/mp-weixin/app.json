@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/common/webView",
+    "pages/common/header",
+    "pages/common/img"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/home/onLine",
+      "pages": [
+        "teacherDetail",
+        "teacherList",
+        "setTeacher",
+        "teacherStarList"
+      ]
+    }
+  ],
+  "window": {
+    "pageOrientation": "portrait",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "一点通",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "permission": {},
+  "usingComponents": {
+    "uni-nav": "/pages/common/header",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}
